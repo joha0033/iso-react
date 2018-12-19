@@ -2,12 +2,18 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 
-const AppDisplay = ( ) => {
+const AppDisplay = ({ test }) => (
     <div>
         <h1>
-            ISO REACT, ISO COOL
+            ISO REACT, ISO COOL: {test}
         </h1>
     </div>
+)
+
+const mapStateToProps =(state, ownProps)=>{
+    return {
+        ...state
+    }
 }
 
-export default AppDisplay
+export default connect(mapStateToProps)(AppDisplay)
