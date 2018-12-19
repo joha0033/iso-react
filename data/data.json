@@ -1,0 +1,754 @@
+{
+    "items": [
+    {
+    "tags": [
+    "nginx",
+    "nginx-config"
+    ],
+    "owner": {
+    "reputation": 23,
+    "user_id": 7181187,
+    "user_type": "registered",
+    "profile_image": "https://i.stack.imgur.com/zqMr9.jpg?s=128&g=1",
+    "display_name": "Mohammad Ahmad",
+    "link": "https://stackoverflow.com/users/7181187/mohammad-ahmad"
+    },
+    "is_answered": false,
+    "view_count": 6,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1545256823,
+    "creation_date": 1545256098,
+    "question_id": 53859615,
+    "link": "https://stackoverflow.com/questions/53859615/nginx-preserve-request-uri",
+    "title": "Nginx preserve $request_uri"
+    },
+    {
+    "tags": [
+    "python-3.x",
+    "popen",
+    "blocking"
+    ],
+    "owner": {
+    "reputation": 996,
+    "user_id": 634227,
+    "user_type": "registered",
+    "accept_rate": 75,
+    "profile_image": "https://www.gravatar.com/avatar/6d328109e14893ace0bd993b059d0a39?s=128&d=identicon&r=PG",
+    "display_name": "UtahJarhead",
+    "link": "https://stackoverflow.com/users/634227/utahjarhead"
+    },
+    "is_answered": true,
+    "view_count": 8,
+    "accepted_answer_id": 53859042,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1545256818,
+    "creation_date": 1545252280,
+    "last_edit_date": 1545256818,
+    "question_id": 53858892,
+    "link": "https://stackoverflow.com/questions/53858892/python-popen-stdout-shows-in-strace-but-not-in-popen-stdout-read",
+    "title": "python popen, stdout shows in strace, but not in popen.stdout.read()"
+    },
+    {
+    "tags": [
+    "angular"
+    ],
+    "owner": {
+    "reputation": 1918,
+    "user_id": 2584924,
+    "user_type": "registered",
+    "accept_rate": 79,
+    "profile_image": "https://www.gravatar.com/avatar/13f44fa227a85d1b9fccf1b8c9ff7e19?s=128&d=identicon&r=PG&f=1",
+    "display_name": "Muirik",
+    "link": "https://stackoverflow.com/users/2584924/muirik"
+    },
+    "is_answered": false,
+    "view_count": 29,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1545256814,
+    "creation_date": 1545226360,
+    "last_edit_date": 1545255662,
+    "question_id": 53852344,
+    "link": "https://stackoverflow.com/questions/53852344/preventing-infinite-calls-to-the-api-in-angular-app-conditional-logic",
+    "title": "Preventing Infinite Calls to the API in Angular App Conditional Logic"
+    },
+    {
+    "tags": [
+    "mongodb"
+    ],
+    "owner": {
+    "reputation": 1600,
+    "user_id": 1017674,
+    "user_type": "registered",
+    "accept_rate": 69,
+    "profile_image": "https://www.gravatar.com/avatar/8289d9219246b0c8c9a659640348f1a4?s=128&d=identicon&r=PG",
+    "display_name": "Zhen Liu",
+    "link": "https://stackoverflow.com/users/1017674/zhen-liu"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256814,
+    "creation_date": 1545256814,
+    "question_id": 53859731,
+    "link": "https://stackoverflow.com/questions/53859731/mongodb-query-two-fields-based-on-or",
+    "title": "mongodb query two fields based on $or"
+    },
+    {
+    "tags": [
+    "javascript",
+    "html",
+    "arrays",
+    "multidimensional-array"
+    ],
+    "owner": {
+    "reputation": 31,
+    "user_id": 9085204,
+    "user_type": "registered",
+    "profile_image": "https://www.gravatar.com/avatar/dd9131eaea04b5a3611bbbc95683e149?s=128&d=identicon&r=PG&f=1",
+    "display_name": "Geordyd",
+    "link": "https://stackoverflow.com/users/9085204/geordyd"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256809,
+    "creation_date": 1545256809,
+    "question_id": 53859730,
+    "link": "https://stackoverflow.com/questions/53859730/making-dropdown-menu-with-multidimensional-array",
+    "title": "Making dropdown menu with multidimensional array"
+    },
+    {
+    "tags": [
+    "javascript",
+    "cachestorage"
+    ],
+    "owner": {
+    "reputation": 16610,
+    "user_id": 454780,
+    "user_type": "registered",
+    "accept_rate": 78,
+    "profile_image": "https://www.gravatar.com/avatar/d8238ae773f9d75e510abe305209189f?s=128&d=identicon&r=PG",
+    "display_name": "trusktr",
+    "link": "https://stackoverflow.com/users/454780/trusktr"
+    },
+    "is_answered": false,
+    "view_count": 14,
+    "answer_count": 1,
+    "score": 1,
+    "last_activity_date": 1545256805,
+    "creation_date": 1545256223,
+    "question_id": 53859639,
+    "link": "https://stackoverflow.com/questions/53859639/are-javascript-browser-cache-objects-made-by-cachestorage-threadsafe",
+    "title": "Are JavaScript browser Cache objects made by CacheStorage threadsafe?"
+    },
+    {
+    "tags": [
+    "file",
+    "unix",
+    "terminal",
+    "copy",
+    "command"
+    ],
+    "owner": {
+    "reputation": 1,
+    "user_id": 10813205,
+    "user_type": "registered",
+    "profile_image": "https://lh5.googleusercontent.com/-BLvTm9fs5o8/AAAAAAAAAAI/AAAAAAAAAJE/-6xe9TS1CPE/photo.jpg?sz=128",
+    "display_name": "user10813205",
+    "link": "https://stackoverflow.com/users/10813205/user10813205"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256793,
+    "creation_date": 1545256793,
+    "question_id": 53859729,
+    "link": "https://stackoverflow.com/questions/53859729/i-want-to-copy-this-file-but-i-cant-type-it-correctly-in-the-terminal",
+    "title": "I want to copy this file but i cant type it correctly in the terminal"
+    },
+    {
+    "tags": [
+    "python"
+    ],
+    "owner": {
+    "reputation": 3,
+    "user_id": 10811994,
+    "user_type": "registered",
+    "profile_image": "https://lh5.googleusercontent.com/-0CQyptS7PlU/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-jNNTbl-bs64aSY9zJuU-ys9j077g/mo/photo.jpg?sz=128",
+    "display_name": "Robi Cvjetinović",
+    "link": "https://stackoverflow.com/users/10811994/robi-cvjetinovi%c4%87"
+    },
+    "is_answered": true,
+    "view_count": 35,
+    "accepted_answer_id": 53857434,
+    "answer_count": 2,
+    "score": -1,
+    "last_activity_date": 1545256792,
+    "creation_date": 1545242591,
+    "last_edit_date": 1545256792,
+    "question_id": 53856894,
+    "link": "https://stackoverflow.com/questions/53856894/python-how-can-i-delay-the-execution-of-second-function-by-one-second",
+    "title": "Python: How can I delay the execution of second function by one second"
+    },
+    {
+    "tags": [
+    "html",
+    "css",
+    "css-variables"
+    ],
+    "owner": {
+    "reputation": 5891,
+    "user_id": 441016,
+    "user_type": "registered",
+    "accept_rate": 69,
+    "profile_image": "https://www.gravatar.com/avatar/e3aa08907388338521f3d9cec7a13d32?s=128&d=identicon&r=PG",
+    "display_name": "1.21 gigawatts",
+    "link": "https://stackoverflow.com/users/441016/1-21-gigawatts"
+    },
+    "is_answered": false,
+    "view_count": 59,
+    "answer_count": 1,
+    "score": -1,
+    "last_activity_date": 1545256790,
+    "creation_date": 1545205157,
+    "last_edit_date": 1545211340,
+    "question_id": 53846582,
+    "link": "https://stackoverflow.com/questions/53846582/can-i-use-css-variables-in-a-font-list-and-have-it-work-in-legacy-browsers",
+    "title": "Can I use CSS variables in a font list and have it work in legacy browsers?"
+    },
+    {
+    "tags": [
+    "bitbucket",
+    "jira"
+    ],
+    "owner": {
+    "reputation": 86,
+    "user_id": 7406018,
+    "user_type": "registered",
+    "accept_rate": 67,
+    "profile_image": "https://www.gravatar.com/avatar/23282ba5b2094e2f0bf34e7df8c312a0?s=128&d=identicon&r=PG&f=1",
+    "display_name": "VisualExstasy",
+    "link": "https://stackoverflow.com/users/7406018/visualexstasy"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256785,
+    "creation_date": 1545256785,
+    "question_id": 53859728,
+    "link": "https://stackoverflow.com/questions/53859728/redesign-jira-architecture",
+    "title": "Redesign Jira Architecture"
+    },
+    {
+    "tags": [
+    "ruby-on-rails",
+    "paperclip"
+    ],
+    "owner": {
+    "reputation": 257,
+    "user_id": 4201809,
+    "user_type": "registered",
+    "accept_rate": 92,
+    "profile_image": "https://i.stack.imgur.com/jQPMj.png?s=128&g=1",
+    "display_name": "Dimitri de Ruiter",
+    "link": "https://stackoverflow.com/users/4201809/dimitri-de-ruiter"
+    },
+    "is_answered": true,
+    "view_count": 1069,
+    "accepted_answer_id": 39348057,
+    "answer_count": 2,
+    "score": 2,
+    "last_activity_date": 1545256783,
+    "creation_date": 1473158542,
+    "question_id": 39347053,
+    "link": "https://stackoverflow.com/questions/39347053/display-pdfs-uploaded-with-paperclip",
+    "title": "Display PDF&#39;s uploaded with paperclip"
+    },
+    {
+    "tags": [
+    "twig",
+    "drupal-8"
+    ],
+    "owner": {
+    "reputation": 18,
+    "user_id": 4459638,
+    "user_type": "registered",
+    "profile_image": "https://www.gravatar.com/avatar/a4b859caed37b0f7cce67334e80e95c6?s=128&d=identicon&r=PG&f=1",
+    "display_name": "Regokonda",
+    "link": "https://stackoverflow.com/users/4459638/regokonda"
+    },
+    "is_answered": true,
+    "view_count": 17,
+    "accepted_answer_id": 53856963,
+    "answer_count": 1,
+    "score": 1,
+    "last_activity_date": 1545256780,
+    "creation_date": 1545195776,
+    "last_edit_date": 1545241370,
+    "question_id": 53844861,
+    "link": "https://stackoverflow.com/questions/53844861/what-is-the-purpose-of-using-elementobject-in-twig-templates-in-drupal-8-h",
+    "title": "What is the purpose of using element[&#39;#object&#39;] in twig templates in drupal 8. How does this work?"
+    },
+    {
+    "tags": [
+    "angular",
+    "jasmine"
+    ],
+    "owner": {
+    "reputation": 41,
+    "user_id": 7816390,
+    "user_type": "registered",
+    "accept_rate": 75,
+    "profile_image": "https://www.gravatar.com/avatar/8a55c1bba386cd16887de8c819f5b1a0?s=128&d=identicon&r=PG&f=1",
+    "display_name": "Kieran_M",
+    "link": "https://stackoverflow.com/users/7816390/kieran-m"
+    },
+    "is_answered": false,
+    "view_count": 2,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256775,
+    "creation_date": 1545256775,
+    "question_id": 53859726,
+    "link": "https://stackoverflow.com/questions/53859726/fixing-a-not-implemented-window-open-error-during-angular-testing",
+    "title": "Fixing a not implemented: window.open error during angular testing"
+    },
+    {
+    "tags": [
+    "mysql",
+    "symfony",
+    "doctrine"
+    ],
+    "owner": {
+    "reputation": 1,
+    "user_id": 10352368,
+    "user_type": "registered",
+    "profile_image": "https://www.gravatar.com/avatar/5b6538e25e5c5f0480c4e3b8860960ab?s=128&d=identicon&r=PG&f=1",
+    "display_name": "J DUPONT",
+    "link": "https://stackoverflow.com/users/10352368/j-dupont"
+    },
+    "is_answered": false,
+    "view_count": 7,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1545256773,
+    "creation_date": 1545256132,
+    "question_id": 53859619,
+    "link": "https://stackoverflow.com/questions/53859619/optimize-search-of-duplicate-n-uplets-between-two-tables",
+    "title": "Optimize search of duplicate n-uplets between two tables"
+    },
+    {
+    "tags": [
+    "php",
+    "mysql"
+    ],
+    "owner": {
+    "reputation": 1,
+    "user_id": 10813141,
+    "user_type": "registered",
+    "profile_image": "https://www.gravatar.com/avatar/2f226027c09fd4332d7f772b97b5a278?s=128&d=identicon&r=PG&f=1",
+    "display_name": "j.qqw",
+    "link": "https://stackoverflow.com/users/10813141/j-qqw"
+    },
+    "is_answered": false,
+    "view_count": 18,
+    "closed_date": 1545255211,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256770,
+    "creation_date": 1545254798,
+    "last_edit_date": 1545255206,
+    "question_id": 53859373,
+    "link": "https://stackoverflow.com/questions/53859373/is-this-prepared-statement-good",
+    "closed_reason": "duplicate",
+    "title": "Is this prepared statement good?"
+    },
+    {
+    "tags": [
+    "json",
+    "rest",
+    "groovy",
+    "soapui"
+    ],
+    "owner": {
+    "reputation": 1557,
+    "user_id": 4223697,
+    "user_type": "registered",
+    "accept_rate": 93,
+    "profile_image": "https://i.stack.imgur.com/PBMkj.png?s=128&g=1",
+    "display_name": "FuSsA",
+    "link": "https://stackoverflow.com/users/4223697/fussa"
+    },
+    "is_answered": true,
+    "view_count": 2502,
+    "accepted_answer_id": 43594615,
+    "answer_count": 2,
+    "score": 1,
+    "last_activity_date": 1545256760,
+    "creation_date": 1493053417,
+    "last_edit_date": 1493138327,
+    "question_id": 43593948,
+    "link": "https://stackoverflow.com/questions/43593948/groovy-how-to-check-if-a-json-key-exists",
+    "title": "Groovy - How to check if a json key exists"
+    },
+    {
+    "tags": [
+    "ios",
+    "swift",
+    "swift4"
+    ],
+    "owner": {
+    "reputation": 3008,
+    "user_id": 5897602,
+    "user_type": "registered",
+    "accept_rate": 92,
+    "profile_image": "https://i.stack.imgur.com/IlHXz.jpg?s=128&g=1",
+    "display_name": "Jaquarh",
+    "link": "https://stackoverflow.com/users/5897602/jaquarh"
+    },
+    "is_answered": true,
+    "view_count": 12,
+    "closed_date": 1545256444,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1545256757,
+    "creation_date": 1545256231,
+    "question_id": 53859641,
+    "link": "https://stackoverflow.com/questions/53859641/how-can-i-wait-for-an-asynchronous-request-to-finish-using-nsurl",
+    "closed_reason": "duplicate",
+    "title": "How can I wait for an asynchronous request to finish using NSURL?"
+    },
+    {
+    "tags": [
+    "java",
+    "sorting",
+    "arraylist",
+    "lambda",
+    "java-stream"
+    ],
+    "owner": {
+    "reputation": 18,
+    "user_id": 8144601,
+    "user_type": "registered",
+    "profile_image": "https://lh5.googleusercontent.com/-X6C-05VjoJ4/AAAAAAAAAAI/AAAAAAAAA1s/tZ4U8_VQjwo/photo.jpg?sz=128",
+    "display_name": "DrAhzek",
+    "link": "https://stackoverflow.com/users/8144601/drahzek"
+    },
+    "is_answered": true,
+    "view_count": 32,
+    "answer_count": 4,
+    "score": 2,
+    "last_activity_date": 1545256756,
+    "creation_date": 1545252636,
+    "last_edit_date": 1545253116,
+    "question_id": 53858970,
+    "link": "https://stackoverflow.com/questions/53858970/sorting-values-of-an-arraylist-objects-and-printing-multiple-of-them-in-one-lamb",
+    "title": "Sorting values of an arraylist objects and printing multiple of them in one lambda"
+    },
+    {
+    "tags": [
+    "javascript",
+    "html",
+    "css"
+    ],
+    "owner": {
+    "reputation": 7,
+    "user_id": 6489720,
+    "user_type": "registered",
+    "profile_image": "https://www.gravatar.com/avatar/e8d3e964297ab599cb1ac3034d636665?s=128&d=identicon&r=PG&f=1",
+    "display_name": "sebastiaan ",
+    "link": "https://stackoverflow.com/users/6489720/sebastiaan"
+    },
+    "is_answered": false,
+    "view_count": 16,
+    "closed_date": 1545255938,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256753,
+    "creation_date": 1545255585,
+    "last_edit_date": 1545256753,
+    "question_id": 53859538,
+    "link": "https://stackoverflow.com/questions/53859538/replace-css-style-before-trough-css-style-editable-with-java",
+    "closed_reason": "duplicate",
+    "title": "replace css style &quot;:before&quot; trough css style editable with java"
+    },
+    {
+    "tags": [
+    "javascript",
+    "string"
+    ],
+    "owner": {
+    "reputation": 1118,
+    "user_id": 1009466,
+    "user_type": "registered",
+    "accept_rate": 55,
+    "profile_image": "https://www.gravatar.com/avatar/66e94db73ce243b4032c596590d9a5a6?s=128&d=identicon&r=PG",
+    "display_name": "Toniq",
+    "link": "https://stackoverflow.com/users/1009466/toniq"
+    },
+    "is_answered": false,
+    "view_count": 26,
+    "answer_count": 3,
+    "score": 0,
+    "last_activity_date": 1545256738,
+    "creation_date": 1545255008,
+    "question_id": 53859422,
+    "link": "https://stackoverflow.com/questions/53859422/javascript-shorten-string-and-find-sentence-end",
+    "title": "Javascript shorten string and find sentence end"
+    },
+    {
+    "tags": [
+    "mayavi"
+    ],
+    "owner": {
+    "reputation": 11,
+    "user_id": 5873303,
+    "user_type": "registered",
+    "profile_image": "https://www.gravatar.com/avatar/04c21d8a271c6686fc8210c3da0a917f?s=128&d=identicon&r=PG&f=1",
+    "display_name": "Tom&#225;š Derner",
+    "link": "https://stackoverflow.com/users/5873303/tom%c3%a1%c5%a1-derner"
+    },
+    "is_answered": false,
+    "view_count": 3,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256737,
+    "creation_date": 1545256737,
+    "question_id": 53859722,
+    "link": "https://stackoverflow.com/questions/53859722/sharp-edges-in-mayavi-scenes-look-ugly",
+    "title": "Sharp edges in mayavi scenes look ugly"
+    },
+    {
+    "tags": [
+    "javascript",
+    "node.js"
+    ],
+    "owner": {
+    "reputation": 74,
+    "user_id": 3765278,
+    "user_type": "registered",
+    "profile_image": "https://i.stack.imgur.com/hzChu.jpg?s=128&g=1",
+    "display_name": "David",
+    "link": "https://stackoverflow.com/users/3765278/david"
+    },
+    "is_answered": true,
+    "view_count": 15,
+    "answer_count": 1,
+    "score": -1,
+    "last_activity_date": 1545256736,
+    "creation_date": 1545256637,
+    "question_id": 53859700,
+    "link": "https://stackoverflow.com/questions/53859700/assigning-false-returns-undefined",
+    "title": "Assigning false returns undefined"
+    },
+    {
+    "tags": [
+    "python",
+    "numpy"
+    ],
+    "owner": {
+    "reputation": 68,
+    "user_id": 7978013,
+    "user_type": "registered",
+    "accept_rate": 50,
+    "profile_image": "https://www.gravatar.com/avatar/2b50a2eefa63abde5c518cd920d33d71?s=128&d=identicon&r=PG",
+    "display_name": "Newbie",
+    "link": "https://stackoverflow.com/users/7978013/newbie"
+    },
+    "is_answered": false,
+    "view_count": 5,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256735,
+    "creation_date": 1545256735,
+    "question_id": 53859720,
+    "link": "https://stackoverflow.com/questions/53859720/numpy-delete-vector-redefine",
+    "title": "numpy delete - vector (redefine)"
+    },
+    {
+    "tags": [
+    "microservices",
+    "vert.x"
+    ],
+    "owner": {
+    "reputation": 23,
+    "user_id": 3178776,
+    "user_type": "registered",
+    "profile_image": "https://i.stack.imgur.com/1sBQS.jpg?s=128&g=1",
+    "display_name": "user3178776",
+    "link": "https://stackoverflow.com/users/3178776/user3178776"
+    },
+    "is_answered": false,
+    "view_count": 37,
+    "answer_count": 1,
+    "score": 1,
+    "last_activity_date": 1545256732,
+    "creation_date": 1545199267,
+    "question_id": 53845396,
+    "link": "https://stackoverflow.com/questions/53845396/can-vert-x-event-bus-replace-the-need-for-kafka",
+    "title": "can vert.x event bus replace the need for Kafka?"
+    },
+    {
+    "tags": [
+    "git"
+    ],
+    "owner": {
+    "reputation": 4416,
+    "user_id": 3310334,
+    "user_type": "registered",
+    "accept_rate": 64,
+    "profile_image": "https://i.stack.imgur.com/BTb0z.jpg?s=128&g=1",
+    "display_name": "theonlygusti",
+    "link": "https://stackoverflow.com/users/3310334/theonlygusti"
+    },
+    "is_answered": true,
+    "view_count": 33,
+    "answer_count": 2,
+    "score": 3,
+    "last_activity_date": 1545256730,
+    "creation_date": 1545252101,
+    "last_edit_date": 1545252466,
+    "question_id": 53858859,
+    "link": "https://stackoverflow.com/questions/53858859/check-which-files-would-be-tracked-by-gitignore",
+    "title": "check which files would be tracked by gitignore"
+    },
+    {
+    "tags": [
+    "node.js",
+    "aws-sdk",
+    "aws-sdk-nodejs",
+    "aws-xray"
+    ],
+    "owner": {
+    "reputation": 6,
+    "user_id": 10782808,
+    "user_type": "registered",
+    "profile_image": "https://www.gravatar.com/avatar/a2951c76c918c385b6d90a9fafaa5bec?s=128&d=identicon&r=PG&f=1",
+    "display_name": "Nagendra Darla",
+    "link": "https://stackoverflow.com/users/10782808/nagendra-darla"
+    },
+    "is_answered": false,
+    "view_count": 6,
+    "answer_count": 0,
+    "score": 1,
+    "last_activity_date": 1545256730,
+    "creation_date": 1545256286,
+    "last_edit_date": 1545256730,
+    "question_id": 53859646,
+    "link": "https://stackoverflow.com/questions/53859646/need-help-in-knowing-how-to-use-aws-sdk-node-in-my-current-project",
+    "title": "Need help in knowing how to use aws-sdk-node in my current project"
+    },
+    {
+    "tags": [
+    "python",
+    "pandas",
+    "numpy"
+    ],
+    "owner": {
+    "reputation": 78,
+    "user_id": 7106914,
+    "user_type": "registered",
+    "accept_rate": 75,
+    "profile_image": "https://www.gravatar.com/avatar/1ec725f647f7905f8745beb65d2e44a8?s=128&d=identicon&r=PG&f=1",
+    "display_name": "roberto swiss",
+    "link": "https://stackoverflow.com/users/7106914/roberto-swiss"
+    },
+    "is_answered": true,
+    "view_count": 21,
+    "answer_count": 2,
+    "score": 2,
+    "last_activity_date": 1545256729,
+    "creation_date": 1545255900,
+    "last_edit_date": 1545256285,
+    "question_id": 53859579,
+    "link": "https://stackoverflow.com/questions/53859579/count-positive-and-negative-consecutive-elements-in-a-dataframe-based-on-conditi",
+    "title": "Count Positive and Negative Consecutive Elements in a Dataframe based on condition"
+    },
+    {
+    "tags": [
+    "python",
+    "fonts",
+    "python-imaging-library",
+    "text-rendering"
+    ],
+    "owner": {
+    "reputation": 13185,
+    "user_id": 118495,
+    "user_type": "registered",
+    "accept_rate": 65,
+    "profile_image": "https://www.gravatar.com/avatar/5aeec37586af7d8a14cbd567f61fc734?s=128&d=identicon&r=PG",
+    "display_name": "priestc",
+    "link": "https://stackoverflow.com/users/118495/priestc"
+    },
+    "is_answered": true,
+    "view_count": 1995,
+    "answer_count": 5,
+    "score": 6,
+    "last_activity_date": 1545256727,
+    "creation_date": 1261247932,
+    "last_edit_date": 1545255324,
+    "question_id": 1933766,
+    "link": "https://stackoverflow.com/questions/1933766/fonts-clipping-with-pil",
+    "title": "fonts clipping with PIL"
+    },
+    {
+    "tags": [
+    "arrays",
+    "go",
+    "memory",
+    "slice"
+    ],
+    "owner": {
+    "reputation": 2203,
+    "user_id": 3072896,
+    "user_type": "registered",
+    "accept_rate": 77,
+    "profile_image": "https://i.stack.imgur.com/WWVXA.png?s=128&g=1",
+    "display_name": "joe-tom",
+    "link": "https://stackoverflow.com/users/3072896/joe-tom"
+    },
+    "is_answered": false,
+    "view_count": 3,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1545256725,
+    "creation_date": 1545256725,
+    "question_id": 53859717,
+    "link": "https://stackoverflow.com/questions/53859717/golang-slice-values-reused",
+    "title": "Golang slice values reused"
+    },
+    {
+    "tags": [
+    "lua",
+    "logitech-gaming-software"
+    ],
+    "owner": {
+    "reputation": 1,
+    "user_id": 10789793,
+    "user_type": "registered",
+    "profile_image": "https://lh4.googleusercontent.com/-N9bTO-Bh1tc/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-jgI2D5nIRFj0ruKTmobyF4tmeHsQ/mo/photo.jpg?sz=128",
+    "display_name": "shiphtfour",
+    "link": "https://stackoverflow.com/users/10789793/shiphtfour"
+    },
+    "is_answered": false,
+    "view_count": 16,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1545256721,
+    "creation_date": 1545245862,
+    "question_id": 53857595,
+    "link": "https://stackoverflow.com/questions/53857595/lua-checking-variable-during-for-loop",
+    "title": "Lua checking variable during for loop"
+    }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 298
+    }
