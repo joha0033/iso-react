@@ -10,13 +10,19 @@
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^7.1.5", 
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-regenerator-runtime": "^6.5.0",
     "express": "^4.16.4",
     "express-yields": "^1.1.2",
-    "fs-extra": "^7.0.1"
+    "fs-extra": "^7.0.1",
+    "webpack": "^4.28.0",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-hot-middleware": "^2.24.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
   }
 }
