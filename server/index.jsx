@@ -23,7 +23,7 @@ const app = express()
  * use live data from API
  */
 const useLiveData = argv.useLiveData === 'true'
-const useServerRender = argv.useLiveData === 'true'
+const useServerRender = argv.useServerRender === 'true'
 
 function * getQuestions () {
     let data
@@ -88,20 +88,24 @@ app.get(['/'], function * (req, res) {
     const initialState = {
         questions: []
     }
+    
     const questions = yield getQuestions()
-    const store = getStore()
+    initialState.questions = questions.items
+
+    const store = getStore(initialState)
+
     if(useServerRender){
-        const appRenderer = renderToString(
+        const appRendered = renderToString(
             <Provider store={store}>
                 <App/>
             </Provider>
         )
-        index = index.replace(`<%= preloadedApplication %>`, appRenderer)
+        index = index.replace(`<%= preloadedApplication %>`, appRendered)
     } else {
         index = index.replace(`<%= preloadedApplication %>`, `Loading some datas, wait... hold on.`)
     }
 
-    initialState.questions = questions.items
+    
     res.send(index)
 })
 /**
