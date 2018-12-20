@@ -6,7 +6,11 @@ import { argv } from 'optimist'
 import { get } from 'request-promise'
 import { delay } from 'redux-saga'
 import { question as questionURL, questions } from '../data/urls'
-
+import getStore from '../src/getStore'
+import { renderToString } from 'react-dom/server'
+import { Provider } from 'react-redux'
+import React from 'react'
+import App from '../src/App'
 
 
 /**
@@ -19,6 +23,7 @@ const app = express()
  * use live data from API
  */
 const useLiveData = argv.useLiveData === 'true'
+const useServerRender = argv.useLiveData === 'true'
 
 function * getQuestions () {
     let data
@@ -80,6 +85,23 @@ if (process.env.NODE_ENV === 'development') {
  */
 app.get(['/'], function * (req, res) {
     let index = yield fs.readFile('./public/index.html', 'utf-8')
+    const initialState = {
+        questions: []
+    }
+    const questions = yield getQuestions()
+    const store = getStore()
+    if(useServerRender){
+        const appRenderer = renderToString(
+            <Provider store={store}>
+                <App/>
+            </Provider>
+        )
+        index = index.replace(`<%= preloadedApplication %>`, appRenderer)
+    } else {
+        index = index.replace(`<%= preloadedApplication %>`, `Loading some datas, wait... hold on.`)
+    }
+
+    initialState.questions = questions.items
     res.send(index)
 })
 /**

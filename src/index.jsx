@@ -19,5 +19,22 @@ const render = (_App) => {
     )
 }
 
-render(App)
+if (module.hot) {
+    module.hot.accept('./App', () => {
+        const nextApp = require('./App').default
+        render(nextApp)
+    })
+}
+
+// render(App)
+store.subscribe(() => {
+    const state = store.getState()
+    if( state.questions.length > 0 ) {
+        console.log('Mounting App')
+        render(App)
+    }else{
+        console.log('App is not mounting yet. hold your...');
+        
+    }
+})
 fetchDataForLocation()

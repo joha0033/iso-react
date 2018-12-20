@@ -1,12 +1,15 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import QuestionList from './components/questionsList'
 
-
-const AppDisplay = ({ test }) => (
+const AppDisplay = () => (
     <div>
         <h1>
-            ISO REACT, ISO COOL: {test}
+            ISO REACT, ISO COOL
         </h1>
+        <div>
+            <QuestionList />
+        </div>
     </div>
 )
 
