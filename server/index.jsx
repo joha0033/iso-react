@@ -8,10 +8,13 @@ import { delay } from 'redux-saga'
 import { question as questionURL, questions } from '../data/urls'
 import getStore from '../src/getStore'
 import { renderToString } from 'react-dom/server'
+import { ConnectedRouter } from 'react-router-redux';
+import createHistory from 'history/createMemoryHistory'
 import { Provider } from 'react-redux'
 import React from 'react'
 import App from '../src/App'
-
+import questionDetail from "../src/components/questionDetail";
+import path from 'path'
 
 /**
  * create port and express app
@@ -78,26 +81,43 @@ if (process.env.NODE_ENV === 'development') {
 
     // adding hot reloading for pages to reload automatically on file changes
     app.use(require('webpack-hot-middleware')(compiler))
+} else {
+    app.use(express.static(path.resolve(__dirname, '../dist')))
 }
 
 /**
  * creates routes with mulitple entry points wiht array
  */
-app.get(['/'], function * (req, res) {
+app.get(['/', '/questions/:id'], function * (req, res) {
     let index = yield fs.readFile('./public/index.html', 'utf-8')
     const initialState = {
         questions: []
     }
-    
-    const questions = yield getQuestions()
-    initialState.questions = questions.items
 
-    const store = getStore(initialState)
+    const history = createHistory({
+        initialEntries:[req.path]
+    })
+
+    if(req.params.id){
+        const question_id = req.params.id
+        const response = yield getQuestion(question_id)
+        const questionDetails = response.items[0]
+        initialState.questions = [{...questionDetails, question_id}]
+    } else {
+        const questions = yield getQuestions()
+        initialState.questions = questions.items
+    }
+    
+    
+
+    const store = getStore(history, initialState)
 
     if(useServerRender){
         const appRendered = renderToString(
             <Provider store={store}>
-                <App/>
+                <ConnectedRouter store={store} history={history}>
+                    <App/>
+                </ConnectedRouter>
             </Provider>
         )
         index = index.replace(`<%= preloadedApplication %>`, appRendered)
