@@ -1,14 +1,28 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import QuestionList from './components/questionsList'
-
+import QuestionDetail from './components/questionDetail'
+import {
+    Route,
+    Link
+} from 'react-router-dom'
 const AppDisplay = () => (
     <div>
         <h1>
-            ISO REACT, ISO COOL
+            <Link to={`/`}>
+                ISO REACT, ISO COOL
+            </Link>
+            
         </h1>
         <div>
-            <QuestionList />
+            {/* <QuestionList /> */}
+            <Route exact path={`/`} 
+                render={() => <QuestionList />}
+            />
+            <Route exact path={`/questions/:id`} 
+                render={({match}) => <QuestionDetail 
+                question_id={match.params.id}/>}
+            />
         </div>
     </div>
 )
