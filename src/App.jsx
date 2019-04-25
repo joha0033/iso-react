@@ -6,14 +6,28 @@ import {
     Route,
     Link
 } from 'react-router-dom'
+
 const AppDisplay = () => (
-    <div>
-        <h1>
+    <div >
+            <h1>
             <Link to={`/`}>
-                ISO REACT, ISO COOL
+                AJ Devs
             </Link>
+            </h1>
+            <h2>
+            <Link to={`/`}>
+                Blog
+            </Link>
+            <Link to={`/about`}>
+                About
+            </Link>
+            <Link to={`/contact`}>
+                Contact
+            </Link>
+            </h2>
             
-        </h1>
+            
+        
         <div>
             {/* <QuestionList /> */}
             <Route exact path={`/`} 

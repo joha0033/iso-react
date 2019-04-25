@@ -1,5 +1,5 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux'
-import { identity } from 'lodash'
+import identity from 'lodash.identity'
 import createSagaMIddleware from 'redux-saga'
 import { createLogger } from 'redux-logger'
 import fetchQuestionsSaga from './sagas/fetch-questions-saga'

@@ -1,6 +1,6 @@
 import webpack from 'webpack'
 import path from 'path'
-
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 export default {
     mode: 'development',
     entry: [ // list of files that babel will load automatically as it assembles
@@ -9,9 +9,9 @@ export default {
         path.resolve(__dirname, 'src/')
     ],
     output: {
-        path: path.resolve(__dirname, 'public'),
+        path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
-        filename: 'bundle.js'
+        chunkFilename: '[name].js'
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
@@ -23,8 +23,18 @@ export default {
             }
         })
     ],
+    optimization: {
+        splitChunks:{
+          chunks: 'all'
+        } 
+    },
     resolve: {
-        extensions: [ '.js', '.jsx', '.json']
+        extensions: [ '.js', '.jsx', '.json'],
+        modules: [
+            path.resolve('./public'),
+            path.resolve('./dist'),
+            path.resolve('./node_modules'),
+          ]
     },
     module: {
         rules: [

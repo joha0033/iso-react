@@ -1,6 +1,9 @@
 const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+const CompressionPlugin = require('compression-webpack-plugin');
+
 
 module.exports = {
     mode: 'production',
@@ -10,10 +13,16 @@ module.exports = {
     ],
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
-        publicPath: '/'
+        publicPath: '/',
+        chunkFilename: '[name].js'
     },
+    // output: {
+    //     path: path.resolve(__dirname, 'public'),
+    //     publicPath: '/',
+    //     filename: 'bundle.js'
+    // },
     plugins: [
+        // new BundleAnalyzerPlugin(),
         new CleanWebpackPlugin(['dist']),
         new webpack.DefinePlugin({
             'process.env': {
@@ -29,16 +38,24 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js', '.json', '.jsx'],
+        modules: [
+            path.resolve('./public'),
+            path.resolve('./dist'),
+            path.resolve('./node_modules'),
+          ]
     },
     module: {
         rules: [
-            {
-                test: /\.jsx?$/,
-                use: {
-                    loader: 'babel-loader'
-                },
-                include: path.resolve(__dirname, 'src')
-            }
+          { 
+            test: /\.(js|jsx)$/, 
+            exclude: [/node_modules/],
+            use: {
+              loader: 'babel-loader',
+              options: {
+                presets: ['react', 'env', 'stage-2']
+              }
+            } 
+          }
         ]
-    }
+      }
 };

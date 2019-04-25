@@ -33,7 +33,6 @@ if (module.hot) {
 store.subscribe(() => {
     const state = store.getState()
     if( state.questions.length > 0 ) {
-        console.log('Mounting App')
         render(App)
     }else{
         console.log('App is not mounting yet. hold your...');
